@@ -55,9 +55,9 @@ index_eval_time = find(eval_time - t == min(abs(eval_time - t)));
 [XX, YY, time_grid] = meshgrid(longitude, latitude, t);
 
 %load Chaos 6 maps of Br, SV, and SA
-Br_all = load('Br_Map.mat','-mat');
-SV_all = load('SV_Map.mat','-mat');
-SA_all = load('SA_Map.mat','-mat');
+Br_all = load('../data/Br_Map.mat','-mat');
+SV_all = load('../data/SV_Map.mat','-mat');
+SA_all = load('../data/SA_Map.mat','-mat');
 Br_all = Br_all.Br_Map;
 SV_all = SV_all.SV_Map;
 SA_all = SA_all.SA_Map;
